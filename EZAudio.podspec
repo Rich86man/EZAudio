@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.exclude_files = 'EZAudio/VERSION'
   s.ios.frameworks = 'AudioToolbox','AVFoundation','GLKit'
   s.osx.frameworks = 'AudioToolbox','AudioUnit','CoreAudio','QuartzCore','OpenGL','GLKit'
-  s.dependency 'TheAmazingAudioEngine', :git => 'https://github.com/Rich86man/TheAmazingAudioEngine'
+  s.dependency 'TheAmazingAudioEngine'
   s.requires_arc = true;
 end
